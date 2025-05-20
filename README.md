@@ -12,34 +12,39 @@ The company expects flexibility and reusability in the codebase — ideal for th
 
 📋 Requirements
 
-Implement a PaymentStrategy interface with a method pay(amount).
+- Implement a PaymentStrategy interface with a method pay(amount).
 
-Implement at least three payment strategies:
+- Implement at least three payment strategies:
 
             -  Credit Card
             -  PayPal
             -   Cryptocurrency
 
-Allow switching between strategies at runtime.
+- Allow switching between strategies at runtime.
 
-Create a PaymentContext class that uses the selected strategy to execute the payment.
+- Create a PaymentContext class that uses the selected strategy to execute the payment.
 
-Provide a simple CLI simulation of user selecting a method and making a payment.
+- Provide a simple CLI simulation of user selecting a method and making a payment.
 
 🧱 Class Structure
-PaymentStrategy:	Strategy interface
-CreditCardPayment:	Concrete strategy
-PayPalPayment:	Concrete strategy
-CryptoPayment:	Concrete strategy
-PaymentContext:	Context that uses a payment strategy
+
+- PaymentStrategy:	Strategy interface
+
+- CreditCardPayment:	Concrete strategy
+
+- PayPalPayment:	Concrete strategy
+
+- CryptoPayment:	Concrete strategy
+
+- PaymentContext:	Context that uses a payment strategy
 
 
 Possible Extensions (Advanced)
 
-Add more strategies (e.g., Apple Pay, Bank Transfer).
+- Add more strategies (e.g., Apple Pay, Bank Transfer).
 
-Store and validate user payment data for each method.
-Implement a simple GUI or web interface.
+- Store and validate user payment data for each method.
+- Implement a simple GUI or web interface.
 
-Log payment transactions into a JSON or database.
+- Log payment transactions into a JSON or database.
 
